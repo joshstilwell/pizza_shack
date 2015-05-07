@@ -1,6 +1,11 @@
 class PizzasController < ApplicationController
   before_action :set_pizza, only: [:show, :edit, :update, :destroy]
 
+  def home 
+    
+  end 
+  
+  
   # GET /pizzas
   # GET /pizzas.json
   def index
